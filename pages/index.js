@@ -49,7 +49,7 @@ Software Engineer at Confluxsys
   )
 }
 
-export async function getServerSideProps(){
+export async function getStaticProps(){
 
   let res=await fetch(`https://api.github.com/users/Janani1727`)
    
