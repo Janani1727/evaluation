@@ -2,12 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   images:{
-    unoptimized:true
+    unoptimized:true,
   }
 }
 
-module.exports = {
-  images:{
-    domains:["avatars.githubusercontent.com"]
-  }
-}
+module.exports = nextConfig;
+
+
